@@ -95,5 +95,5 @@ def landMarks(path):
 
 
 if __name__ == '__main__':
-    pos = landMarks('me.jpg')
+    pos = landMarks('2020_AW_Lisbon_Female_Aleksandar Protic_14.jpg')
     print(pos)
