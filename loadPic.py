@@ -7,8 +7,8 @@ import dlib
 import os
 import datetime
 # 阿里云主账号AccessKey拥有所有API的访问权限，风险很高。强烈建议您创建并使用RAM账号进行API访问或日常运维，请登录 https://ram.console.aliyun.com 创建RAM账号。
-auth = oss2.Auth('LTAI4G5et2Fa3uZ7cmW4usY9', '8iAalIbDY0yEn8YbKUC1lkx42eaXZ5')
-bucket = oss2.Bucket(auth, 'http://oss-cn-shanghai.aliyuncs.com', 'fdb-tagging')
+# auth = oss2.Auth('LTAI4G5et2Fa3uZ7cmW4usY9', '8iAalIbDY0yEn8YbKUC1lkx42eaXZ5')
+# bucket = oss2.Bucket(auth, 'http://oss-cn-shanghai.aliyuncs.com', 'fdb-tagging')
 
 
 def landMarks(path):

@@ -60,10 +60,10 @@ if __name__ == '__main__':
     img_root = '2020'
     reader = ImageReader()  # reader is the class
 
-    body_agent_url = 'https://api-cn.faceplusplus.com/humanbodypp/v2/segment'
-    face_agent_url = 'https://api-cn.faceplusplus.com/facepp/v3/detect'
-    api_key = 'hzitXbntiIf8ZSN7rxeLbyNmg1IgUBPB'
-    api_secret = '8Wq94Gh8rbN7BaEPdYuRuWEKf6rPhtkF'
+    # body_agent_url = 'https://api-cn.faceplusplus.com/humanbodypp/v2/segment'
+    # face_agent_url = 'https://api-cn.faceplusplus.com/facepp/v3/detect'
+    # api_key = 'hzitXbntiIf8ZSN7rxeLbyNmg1IgUBPB'
+    # api_secret = '8Wq94Gh8rbN7BaEPdYuRuWEKf6rPhtkF'
 
     body_agent = RequestAgent(body_agent_url, api_key, api_secret)
     face_agent = RequestAgent(face_agent_url, api_key, api_secret)
